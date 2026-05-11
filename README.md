@@ -20,7 +20,7 @@ Practical technology leader translating complex business operations into secure 
 <table>
 <tr>
 <td width="35%" valign="top" align="center">
-  <img src="./assets/profile.jpg" alt="Fejiro Efiuvwere" width="240" />
+  <img src="https://raw.githubusercontent.com/fefejiro/fefejiro/main/assets/profile.jpg" alt="Fejiro Efiuvwere" width="240" />
   <br/><br/>
   <a href="https://www.linkedin.com/in/fejiro-efiuvwere"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:fejiro.efiuvwere@gmail.com"><img src="https://img.shields.io/badge/EMAIL-111827?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
