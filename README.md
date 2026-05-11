@@ -1,3 +1,4 @@
+<!-- profile-readme -->
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1020,40:2563EB,75:06B6D4,100:7C3AED&height=180&section=header&text=Fejiro%20Efiuvwere&fontSize=36&fontColor=F8FAFC&animation=fadeIn" alt="Fejiro Efiuvwere header" />
 </p>
