@@ -154,3 +154,5 @@ If any of these projects help you, support keeps active development moving.
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1020,40:2563EB,75:06B6D4,100:7C3AED&height=120&section=footer" alt="Fejiro footer" />
 </p>
+
+<!-- profile-refresh: 2026-05-11T13:25:00Z -->
