@@ -57,6 +57,28 @@ My strength is being the bridge between business, engineering, operations, and d
 - Governed, explainable AI systems
 - Fast prototypes that can become production products
 
+## FTC Portfolio
+
+Core products and experiments across the FTC ecosystem:
+
+| Product | What it is | Live / Surface | Code |
+|---|---|---|---|
+| SayWetin | Cultural music, speech, and slang companion | Web + mobile surfaces | <a href="https://github.com/fefejiro/FTC-HOLDING/tree/main/APPS/saywetin">APPS/saywetin</a> |
+| Una Labs | AI product studio flagship site and delivery layer | <a href="https://unalabs.cloud/">unalabs.cloud</a> | <a href="https://github.com/fefejiro/FTC-HOLDING/tree/main/APPS/ftc-site">APPS/ftc-site</a> |
+| Garden Cleaners | Service site and operations portal workflow | Garden Cleaners web + portal | <a href="https://github.com/fefejiro/FTC-HOLDING/tree/main/APPS/ftc-site/app/garden-cleaners">garden-cleaners app surface</a> |
+| PeacePad | Mediation-first co-parenting platform | <a href="https://peacepad.ca">peacepad.ca</a> | <a href="https://github.com/fefejiro/FTC-HOLDING/tree/main/APPS/peacepad">APPS/peacepad</a> |
+| ATEAM | Internal AI operating system and orchestration tooling | Internal / local-first control layer | <a href="https://github.com/fefejiro/FTC-HOLDING/tree/main/APPS/ATEAM">APPS/ATEAM</a> |
+| TradeUp | Social trading and challenge platform concept | Product exploration + workflow design | <a href="https://github.com/fefejiro/FTC-HOLDING">FTC-HOLDING portfolio repo</a> |
+| OG Trades Academy | Standalone forex education brand | Program and content operations | <a href="https://github.com/fefejiro/FTC-HOLDING">FTC-HOLDING portfolio repo</a> |
+| TowSignal | Dispatch and roadside workflow product | Operations workflow design + routing | <a href="https://github.com/fefejiro/FTC-HOLDING">FTC-HOLDING portfolio repo</a> |
+
+<p>
+  <a href="https://github.com/fefejiro/FTC-HOLDING"><img src="https://img.shields.io/badge/FTC--HOLDING%20PORTFOLIO-0B1020?style=for-the-badge&logo=github&logoColor=white" alt="FTC portfolio repo" /></a>
+  <a href="https://github.com/fefejiro/FTC-HOLDING/tree/main/APPS/saywetin"><img src="https://img.shields.io/badge/SAYWETIN-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white" alt="SayWetin" /></a>
+  <a href="https://github.com/fefejiro/FTC-HOLDING/tree/main/APPS/ATEAM"><img src="https://img.shields.io/badge/ATEAM-06B6D4?style=for-the-badge&logo=openai&logoColor=0B1020" alt="ATEAM" /></a>
+  <a href="https://github.com/fefejiro/FTC-HOLDING/tree/main/APPS/ftc-site"><img src="https://img.shields.io/badge/GARDEN%20CLEANERS%20%26%20UNA%20LABS-7C3AED?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Garden Cleaners and Una Labs" /></a>
+</p>
+
 ## PeacePad
 ### Founder | Product Strategy | Execution
 
