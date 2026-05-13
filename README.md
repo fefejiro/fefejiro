@@ -23,7 +23,7 @@ Practical technology leader translating complex business operations into secure 
   <img src="https://raw.githubusercontent.com/fefejiro/fefejiro/main/assets/profile.jpg" alt="Fejiro Efiuvwere" width="240" />
   <br/><br/>
   <a href="https://www.linkedin.com/in/fejiro-efiuvwere"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:fejiro.efiuvwere@gmail.com"><img src="https://img.shields.io/badge/EMAIL-111827?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=fejiro.efiuvwere@gmail.com&su=GitHub%20Profile%20Contact"><img src="https://img.shields.io/badge/EMAIL-111827?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   <br/><br/>
   <b>Toronto, Ontario, Canada</b><br/>
   <b>15+ years in enterprise delivery</b>
@@ -139,10 +139,12 @@ PeacePad is a co-parenting communication initiative focused on practical, calm, 
 ## Connect
 <p>
   <a href="https://www.linkedin.com/in/fejiro-efiuvwere"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:fejiro.efiuvwere@gmail.com"><img src="https://img.shields.io/badge/EMAIL-111827?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=fejiro.efiuvwere@gmail.com&su=GitHub%20Profile%20Contact"><img src="https://img.shields.io/badge/EMAIL-111827?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://peacepad.ca"><img src="https://img.shields.io/badge/PEACEPAD-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white" alt="PeacePad" /></a>
   <a href="https://unalabs.cloud/"><img src="https://img.shields.io/badge/UNA%20LABS-06B6D4?style=for-the-badge&logo=vercel&logoColor=0B1020" alt="Una Labs" /></a>
 </p>
+
+Direct email fallback: <a href="mailto:fejiro.efiuvwere@gmail.com">fejiro.efiuvwere@gmail.com</a>
 
 ## Support My Open Source Work
 If any of these projects help you, support keeps active development moving.
