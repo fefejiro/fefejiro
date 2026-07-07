@@ -2,8 +2,9 @@ name: Generate Contribution Snake
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 0 * * *"
+  # Re-enable the schedule when GitHub hosted runners are available again.
+  # schedule:
+  #   - cron: "0 0 * * *"
 
 permissions:
   contents: write
