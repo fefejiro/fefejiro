@@ -25,6 +25,14 @@ I build production-minded web and iOS platforms that connect product strategy, s
   <b>Toronto, Ontario, Canada</b><br/>
   <b>15+ years in enterprise delivery</b><br/>
   <b>Business, systems, data, and product execution</b>
+  <br/><br/>
+  <b>LANGUAGES</b><br/>
+  English &nbsp;•&nbsp; French &nbsp;•&nbsp; Spanish
+  <br/><br/>
+  <b>CORE TECH STACK</b><br/>
+  TypeScript &nbsp;•&nbsp; React &nbsp;•&nbsp; React Native<br/>
+  Next.js &nbsp;•&nbsp; Node.js &nbsp;•&nbsp; Supabase<br/>
+  PostgreSQL &nbsp;•&nbsp; Cloudflare &nbsp;•&nbsp; iOS
 </td>
 <td width="66%" valign="top">
 
@@ -42,6 +50,18 @@ My iOS experience spans Capacitor-based product delivery, a guarded native Peace
 </tr>
 </table>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/React-0EA5E9?style=flat-square&logo=react&logoColor=white" alt="React" />
+  <img src="https://img.shields.io/badge/React%20Native-0EA5E9?style=flat-square&logo=react&logoColor=white" alt="React Native" />
+  <img src="https://img.shields.io/badge/Next.js-111827?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Node.js-3C873A?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Supabase-0F172A?style=flat-square&logo=supabase&logoColor=3ECF8E" alt="Supabase" />
+  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare" />
+  <img src="https://img.shields.io/badge/iOS-111827?style=flat-square&logo=apple&logoColor=white" alt="iOS" />
+</p>
+
 ## Live Product Portfolio
 
 | Product | What it proves | Technical scope | Link |
@@ -54,7 +74,7 @@ My iOS experience spans Capacitor-based product delivery, a guarded native Peace
 | **SayWetin** | Speech/music/slang recognition product, browser/mobile direction, API-backed utility | React/TypeScript, Node API, Railway, Postgres, extension architecture | [![SayWetin](https://img.shields.io/badge/SAYWETIN-LIVE-7C3AED?style=flat-square&logo=googlechrome&logoColor=white)](https://saywetin.app) |
 | **CapSigma Growth Desk** | Sales agent command center, lead intelligence, outreach proof, client-ready handoff | Cloudflare Pages/Functions, D1 patterns, SendGrid/OpenAI workflows, proof ledger | [![CapSigma](https://img.shields.io/badge/CAPSIGMA-LIVE-0F766E?style=flat-square&logo=cloudflare&logoColor=white)](https://capsigma-growth-desk.pages.dev) |
 | **Garden Cleaners** | Service-business booking, client portal, operational web presence | Next.js, Supabase, Stripe, production web ops | [![Garden Cleaners](https://img.shields.io/badge/GARDEN%20CLEANERS-LIVE-16A34A?style=flat-square&logo=googlechrome&logoColor=white)](https://gardencleaners.ca) |
-| **Dispatch / Internal Ops** | Lightweight operational routing, health checks, private/public service boundaries | Cloudflare, API endpoints, ops automation | [![Dispatch](https://img.shields.io/badge/DISPATCH-LIVE-111827?style=flat-square&logo=cloudflare&logoColor=F97316)](https://dispatch.unalabs.cloud) |
+| **Dispatch / Internal Ops** | Lightweight operational routing, health checks, private/public service boundaries | Cloudflare, API endpoints, ops automation | [![Dispatch demo](https://img.shields.io/badge/DISPATCH-DEMO-111827?style=flat-square&logo=cloudflare&logoColor=F97316)](https://unalabs.cloud/demo/dispatch) |
 
 ## FTC Product Architecture
 
