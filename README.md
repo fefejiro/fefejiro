@@ -47,7 +47,7 @@ My iOS experience spans Capacitor-based product delivery, a guarded native Peace
 | Product | What it proves | Technical scope | Link |
 |---|---|---|---|
 | **PeacePad** | Family-tech product thinking, AI-assisted communication, calm UX, privacy-aware workflows | React, TypeScript, Node/API, Supabase, Railway/Cloudflare, Capacitor | [![PeacePad](https://img.shields.io/badge/PEACEPAD-LIVE-2563EB?style=flat-square&logo=googlechrome&logoColor=white)](https://peacepad.ca) |
-| **PeacePad V2** | Native-mobile architecture, fail-closed staging controls, session security, readiness and migration discipline | Native iOS staging, TypeScript coordination client, Node/API, Postgres, strict CORS, synthetic migrations | **STAGING / LAB** |
+| **PeacePad V2** | Regional mobile architecture, secure family coordination, privacy-minimized records, offline recovery and evidence-led release gates | React Native/Expo, TypeScript, Deno Edge Functions, Supabase/Postgres, Canada/U.S. staging, Terraform controls | **45% BUILT · STAGING BLOCKED** |
 | **Just Checking In** | Mobile-game delivery, Unity engineering, Apple signing/release automation, TestFlight and App Store operations | Unity, C#, iOS export, Xcode archive/signing, TestFlight delivery scripts | **iOS RELEASE PIPELINE** |
 | **Una Labs** | AI product studio, client intake, product pages, checkout and delivery positioning | Next.js, Cloudflare, Supabase, Stripe, product ops | [![Una Labs](https://img.shields.io/badge/UNA%20LABS-LIVE-06B6D4?style=flat-square&logo=vercel&logoColor=0B1020)](https://unalabs.cloud) |
 | **Anion** | Scheduling, tutoring operations, live classroom, role-based platform flows | Next.js, Supabase, Stripe, Daily.co, Cloudflare Worker | [![Anion](https://img.shields.io/badge/ANION-LIVE-EA580C?style=flat-square&logo=googlechrome&logoColor=white)](https://anion.unalabs.cloud) |
@@ -58,64 +58,67 @@ My iOS experience spans Capacitor-based product delivery, a guarded native Peace
 
 ## FTC Product Architecture
 
-The portfolio shares a consistent delivery model: focused user experiences connect through typed application and API layers to managed data, AI, payments, communications, and observable release operations.
+FTC uses a cost-conscious platform model: edge delivery for web experiences, persistent services only where required, isolated product data, and evidence-backed release controls. PeacePad V2 remains a lab/staging programme—its hosted and PostgreSQL checks do not imply TestFlight or production readiness.
 
 ```mermaid
 flowchart TB
-    subgraph Experiences["Product experiences"]
-        PP["PeacePad<br/>React + Capacitor"]
-        PP2["PeacePad V2<br/>Native iOS staging"]
-        JCI["Just Checking In<br/>Unity + C# for iOS"]
-        UL["Una Labs / Anion / Garden Cleaners<br/>Next.js"]
-        SW["SayWetin<br/>React + browser extension"]
-        CS["CapSigma / Dispatch<br/>Cloudflare web operations"]
+    subgraph EXPERIENCE["01 · PRODUCT EXPERIENCES"]
+        direction LR
+        FAMILY["PeacePad<br/>React + Capacitor"]
+        NATIVE["PeacePad V2<br/>React Native + Expo"]
+        GAME["Just Checking In<br/>Unity + C# · iOS"]
+        WEB["Una Labs · Anion · Garden<br/>Next.js + React"]
+        OPS["SayWetin · CapSigma · Dispatch<br/>Web, extension + operations"]
     end
 
-    subgraph Services["Application and service layer"]
-        NODE["TypeScript / Node.js APIs"]
-        EDGE["Cloudflare Pages, Functions and Workers"]
-        MOBILE["Capacitor and native coordination"]
-        APPLE["Unity export, Xcode archive and signing"]
+    subgraph RUNTIME["02 · FIT-FOR-PURPOSE RUNTIME"]
+        direction LR
+        EDGE["Cloudflare Edge<br/>Pages · Functions · Workers"]
+        API["Persistent Services<br/>TypeScript · Node.js · Railway"]
+        MOBILE["Mobile Delivery<br/>Capacitor · Expo · Xcode"]
     end
 
-    subgraph Platform["Data and integrations"]
-        DATA["Supabase / Postgres / D1"]
-        AI["AI-assisted workflows and human approval"]
-        COMMS["Daily.co / SendGrid / webhooks"]
-        PAY["Stripe"]
+    subgraph TRUST["03 · DATA AND TRUST BOUNDARIES"]
+        direction LR
+        DATA["Product-isolated Data<br/>Supabase · Postgres · D1"]
+        REGIONS["PeacePad V2 Staging<br/>Canada + U.S. Supabase projects"]
+        SECURITY["Security Contracts<br/>JWT · RLS · request IDs · validation"]
+        SERVICES["Controlled Integrations<br/>AI · Stripe · Daily.co · SendGrid"]
     end
 
-    subgraph Delivery["Delivery, trust and operations"]
-        CICD["GitHub Actions and release scripts"]
-        HOST["Cloudflare / Railway"]
-        IOS["TestFlight / App Store"]
-        PROOF["Health checks, smoke tests and proof ledgers"]
+    subgraph DELIVERY["04 · DELIVERY AND EVIDENCE"]
+        direction LR
+        CI["GitHub Actions<br/>protected environments + review gates"]
+        PROOF["Automated Evidence<br/>hosted, Postgres, smoke + health checks"]
+        LIVE["Live Web Products<br/>Cloudflare + Railway"]
+        BLOCKED["PeacePad V2 Release<br/>TestFlight / production blocked"]
     end
 
-    PP --> NODE
-    PP --> MOBILE
-    PP2 --> MOBILE
-    JCI --> APPLE
-    UL --> NODE
-    UL --> EDGE
-    SW --> NODE
-    CS --> EDGE
+    EXPERIENCE --> RUNTIME
+    RUNTIME --> TRUST
+    TRUST --> DELIVERY
 
-    NODE --> DATA
-    NODE --> AI
-    NODE --> COMMS
-    NODE --> PAY
-    EDGE --> DATA
-    MOBILE --> NODE
+    NATIVE -. staging contract .-> REGIONS
+    GAME -. Apple pipeline .-> MOBILE
+    EDGE -. static and short-lived .-> LIVE
+    API -. persistent and WebSocket .-> LIVE
+    REGIONS -. credentials required .-> BLOCKED
+    CI --> PROOF
 
-    NODE --> HOST
-    EDGE --> HOST
-    APPLE --> IOS
-    CICD --> HOST
-    CICD --> IOS
-    HOST --> PROOF
-    IOS --> PROOF
+    classDef product fill:#172554,stroke:#60A5FA,color:#F8FAFC,stroke-width:2px;
+    classDef runtime fill:#083344,stroke:#22D3EE,color:#ECFEFF,stroke-width:2px;
+    classDef trust fill:#052E16,stroke:#4ADE80,color:#F0FDF4,stroke-width:2px;
+    classDef delivery fill:#3B1D0B,stroke:#FB923C,color:#FFF7ED,stroke-width:2px;
+    classDef blocked fill:#450A0A,stroke:#F87171,color:#FEF2F2,stroke-width:2px;
+
+    class FAMILY,NATIVE,GAME,WEB,OPS product;
+    class EDGE,API,MOBILE runtime;
+    class DATA,REGIONS,SECURITY,SERVICES trust;
+    class CI,PROOF,LIVE delivery;
+    class BLOCKED blocked;
 ```
+
+**Architecture principles:** edge-first delivery, persistent compute only when needed, one canonical Dispatch source, isolated product data, least-privilege access, and no production claim without current evidence.
 
 ## Portfolio Repository
 
@@ -177,10 +180,23 @@ It contains product code, platform scripts, operational documentation, health ch
 
 ## Tech Stack
 
+| Capability | Technologies in use |
+|---|---|
+| **Web and product UI** | TypeScript, JavaScript, React, Next.js, Vite, Astro, Tailwind CSS |
+| **Mobile and games** | React Native, Expo, Capacitor, Unity, C#, iOS, Xcode, Android |
+| **APIs and edge** | Node.js, Express, Deno Edge Functions, Cloudflare Pages/Functions/Workers, REST, WebSockets |
+| **Data and identity** | Supabase, PostgreSQL, D1, Row Level Security, JWT, schema migrations |
+| **Cloud and delivery** | Cloudflare, Railway, GitHub Actions, protected environments, Terraform, Docker |
+| **Commercial integrations** | Stripe, Daily.co, SendGrid, webhooks, AI-assisted workflows |
+| **Quality and trust** | Playwright, Jest, Vitest, health/readiness checks, request tracing, privacy-minimized audit evidence |
+| **Enterprise delivery** | Azure DevOps, Jira, ServiceNow, SAP, ERP, WMS, POS, QA/UAT and release governance |
+
 <p>
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111827" alt="JavaScript" />
   <img src="https://img.shields.io/badge/React-0EA5E9?style=flat-square&logo=react&logoColor=white" alt="React" />
+  <img src="https://img.shields.io/badge/React%20Native-0EA5E9?style=flat-square&logo=react&logoColor=white" alt="React Native" />
+  <img src="https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white" alt="Expo" />
   <img src="https://img.shields.io/badge/Next.js-111827?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
   <img src="https://img.shields.io/badge/Node.js-3C873A?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
@@ -189,12 +205,15 @@ It contains product code, platform scripts, operational documentation, health ch
   <img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=csharp&logoColor=white" alt="C Sharp" />
   <img src="https://img.shields.io/badge/Xcode-147EFB?style=flat-square&logo=xcode&logoColor=white" alt="Xcode" />
   <img src="https://img.shields.io/badge/Capacitor-119EFF?style=flat-square&logo=capacitor&logoColor=white" alt="Capacitor" />
+  <img src="https://img.shields.io/badge/Deno-111827?style=flat-square&logo=deno&logoColor=white" alt="Deno" />
   <img src="https://img.shields.io/badge/Postgres-336791?style=flat-square&logo=postgresql&logoColor=white" alt="Postgres" />
   <img src="https://img.shields.io/badge/Supabase-0F172A?style=flat-square&logo=supabase&logoColor=3ECF8E" alt="Supabase" />
   <img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare" />
   <img src="https://img.shields.io/badge/Railway-0B1020?style=flat-square&logo=railway&logoColor=white" alt="Railway" />
   <img src="https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white" alt="Stripe" />
   <img src="https://img.shields.io/badge/GitHub%20Actions-111827?style=flat-square&logo=githubactions&logoColor=06B6D4" alt="GitHub Actions" />
+  <img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white" alt="Terraform" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
   <img src="https://img.shields.io/badge/Azure%20DevOps-0078D7?style=flat-square&logo=azuredevops&logoColor=white" alt="Azure DevOps" />
   <img src="https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white" alt="Jira" />
   <img src="https://img.shields.io/badge/ServiceNow-1F2937?style=flat-square&logo=servicenow&logoColor=84CC16" alt="ServiceNow" />
