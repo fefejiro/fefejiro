@@ -60,6 +60,14 @@ My iOS experience spans Capacitor-based product delivery, a guarded native Peace
 
 FTC uses a cost-conscious platform model: edge delivery for web experiences, persistent services only where required, isolated product data, and evidence-backed release controls. PeacePad V2 remains a lab/staging programme—its hosted and PostgreSQL checks do not imply TestFlight or production readiness.
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/fefejiro/fefejiro/main/assets/ftc-architecture.svg" alt="FTC product architecture connecting portfolio experiences to edge, persistent, data, mobile, security and evidence layers" width="100%" />
+</p>
+
+<details>
+<summary><b>View the accessible technical flowchart</b></summary>
+<br/>
+
 ```mermaid
 flowchart TB
     subgraph EXPERIENCE["01 · PRODUCT EXPERIENCES"]
@@ -117,6 +125,8 @@ flowchart TB
     class CI,PROOF,LIVE delivery;
     class BLOCKED blocked;
 ```
+
+</details>
 
 **Architecture principles:** edge-first delivery, persistent compute only when needed, one canonical Dispatch source, isolated product data, least-privilege access, and no production claim without current evidence.
 
