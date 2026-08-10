@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">FTC product architecture</title>
+  <desc id="desc">A modern architecture view connecting FTC product experiences to runtimes, data boundaries, security, delivery, and current release states.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#070b18"/><stop offset=".55" stop-color="#101329"/><stop offset="1" stop-color="#07161b"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#7c3aed"/><stop offset=".52" stop-color="#2563eb"/><stop offset="1" stop-color="#06b6d4"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="9" stdDeviation="11" flood-color="#000" flood-opacity=".38"/></filter>
+  </defs>
+  <rect width="1200" height="700" rx="28" fill="url(#bg)"/>
+  <circle cx="1070" cy="40" r="240" fill="#7c3aed" opacity=".09"/>
+  <circle cx="70" cy="700" r="240" fill="#06b6d4" opacity=".08"/>
+  <text x="64" y="72" fill="#f8fafc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="34" font-weight="700">FTC product architecture</text>
+  <text x="64" y="106" fill="#94a3b8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16">A portfolio built on shared engineering patterns, isolated trust boundaries, and explicit release evidence.</text>
+  <rect x="64" y="128" width="1072" height="3" rx="2" fill="url(#accent)"/>
+
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <text x="64" y="170" fill="#a5b4fc" font-size="12" font-weight="700">PRODUCT EXPERIENCES</text>
+    <g filter="url(#shadow)">
+      <rect x="64" y="190" width="200" height="96" rx="18" fill="#172554" stroke="#60a5fa"/>
+      <rect x="282" y="190" width="200" height="96" rx="18" fill="#2e1065" stroke="#a78bfa"/>
+      <rect x="500" y="190" width="200" height="96" rx="18" fill="#3b1d0b" stroke="#fb923c"/>
+      <rect x="718" y="190" width="200" height="96" rx="18" fill="#083344" stroke="#22d3ee"/>
+      <rect x="936" y="190" width="200" height="96" rx="18" fill="#052e16" stroke="#4ade80"/>
+    </g>
+    <text x="84" y="225" fill="#fff" font-size="17" font-weight="700">PeacePad</text><text x="84" y="253" fill="#bfdbfe" font-size="13">React + Capacitor</text><text x="84" y="273" fill="#93c5fd" font-size="11">LIVE WEB PRODUCT</text>
+    <text x="302" y="225" fill="#fff" font-size="17" font-weight="700">PeacePad V2</text><text x="302" y="253" fill="#ddd6fe" font-size="13">React Native + Expo</text><text x="302" y="273" fill="#c4b5fd" font-size="11">LAB / STAGING</text>
+    <text x="520" y="225" fill="#fff" font-size="17" font-weight="700">Just Checking In</text><text x="520" y="253" fill="#ffedd5" font-size="13">Unity + C# · iOS</text><text x="520" y="273" fill="#fdba74" font-size="11">APPLE RELEASE TRACK</text>
+    <text x="738" y="225" fill="#fff" font-size="17" font-weight="700">Web portfolio</text><text x="738" y="253" fill="#cffafe" font-size="13">Una · Anion · Garden</text><text x="738" y="273" fill="#67e8f9" font-size="11">NEXT.JS + REACT</text>
+    <text x="956" y="225" fill="#fff" font-size="17" font-weight="700">Product operations</text><text x="956" y="253" fill="#dcfce7" font-size="13">SayWetin · CapSigma</text><text x="956" y="273" fill="#86efac" font-size="11">DISPATCH · ATEAM</text>
+
+    <path d="M164 286V330M382 286V330M600 286V330M818 286V330M1036 286V330" stroke="#475569" stroke-width="2"/>
+    <path d="M164 330H1036" stroke="url(#accent)" stroke-width="3"/>
+    <path d="M600 330V358" stroke="#38bdf8" stroke-width="3"/>
+
+    <text x="64" y="386" fill="#7dd3fc" font-size="12" font-weight="700">FIT-FOR-PURPOSE PLATFORM</text>
+    <g filter="url(#shadow)">
+      <rect x="64" y="404" width="250" height="124" rx="18" fill="#0c2434" stroke="#0ea5e9"/>
+      <rect x="338" y="404" width="250" height="124" rx="18" fill="#0b2b2b" stroke="#14b8a6"/>
+      <rect x="612" y="404" width="250" height="124" rx="18" fill="#18223a" stroke="#6366f1"/>
+      <rect x="886" y="404" width="250" height="124" rx="18" fill="#291b0e" stroke="#f59e0b"/>
+    </g>
+    <text x="88" y="442" fill="#fff" font-size="18" font-weight="700">Edge delivery</text><text x="88" y="472" fill="#bae6fd" font-size="14">Cloudflare Pages</text><text x="88" y="496" fill="#bae6fd" font-size="14">Functions · Workers</text>
+    <text x="362" y="442" fill="#fff" font-size="18" font-weight="700">Persistent services</text><text x="362" y="472" fill="#ccfbf1" font-size="14">TypeScript · Node.js</text><text x="362" y="496" fill="#ccfbf1" font-size="14">Railway · WebSockets</text>
+    <text x="636" y="442" fill="#fff" font-size="18" font-weight="700">Data boundaries</text><text x="636" y="472" fill="#e0e7ff" font-size="14">Supabase · Postgres · D1</text><text x="636" y="496" fill="#e0e7ff" font-size="14">Canada + U.S. V2 staging</text>
+    <text x="910" y="442" fill="#fff" font-size="18" font-weight="700">Mobile delivery</text><text x="910" y="472" fill="#fef3c7" font-size="14">Capacitor · Expo · Xcode</text><text x="910" y="496" fill="#fef3c7" font-size="14">Unity export and signing</text>
+
+    <g>
+      <rect x="64" y="570" width="1072" height="74" rx="18" fill="#111827" stroke="#334155"/>
+      <rect x="80" y="586" width="225" height="42" rx="12" fill="#132f2d"/><text x="98" y="612" fill="#99f6e4" font-size="14" font-weight="600">JWT · RLS · least privilege</text>
+      <rect x="321" y="586" width="232" height="42" rx="12" fill="#172554"/><text x="339" y="612" fill="#bfdbfe" font-size="14" font-weight="600">Request IDs · validation</text>
+      <rect x="569" y="586" width="246" height="42" rx="12" fill="#2e1065"/><text x="587" y="612" fill="#ddd6fe" font-size="14" font-weight="600">CI · protected environments</text>
+      <rect x="831" y="586" width="289" height="42" rx="12" fill="#3b1d0b"/><text x="849" y="612" fill="#fed7aa" font-size="14" font-weight="600">Health · smoke tests · proof ledgers</text>
+      <text x="64" y="559" fill="#cbd5e1" font-size="12" font-weight="700">SECURITY, DELIVERY AND EVIDENCE</text>
+    </g>
+  </g>
+</svg>
