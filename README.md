@@ -266,6 +266,14 @@ It contains product code, platform scripts, operational documentation, health ch
 
 Direct email: <a href="mailto:fejiro.efiuvwere@gmail.com">fejiro.efiuvwere@gmail.com</a>
 
+## Contribution Trail
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/fefejiro/fefejiro/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/fefejiro/fefejiro/output/github-contribution-grid-snake.svg">
+  <img alt="Fejiro's GitHub contribution snake animation" src="https://raw.githubusercontent.com/fefejiro/fefejiro/output/github-contribution-grid-snake.svg">
+</picture>
+
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1020,40:2563EB,75:06B6D4,100:7C3AED&height=120&section=footer" alt="Fejiro footer" />
 </p>
