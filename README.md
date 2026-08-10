@@ -3,10 +3,10 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1020,40:2563EB,75:06B6D4,100:7C3AED&height=180&section=header&text=Fejiro%20Efiuvwere&fontSize=36&fontColor=F8FAFC&animation=fadeIn" alt="Fejiro Efiuvwere header" />
 </p>
 
-<h2 align="center">Technical Product Builder | Enterprise Systems Analyst | AI Workflow & API Platform Delivery</h2>
+<h2 align="center">Technical Product Builder | Enterprise Systems Analyst | iOS, AI Workflow & API Platform Delivery</h2>
 
 <p align="center">
-I build production-minded platforms that connect product strategy, secure AI workflows, APIs, data, and delivery operations.
+I build production-minded web and iOS platforms that connect product strategy, secure AI workflows, APIs, data, and delivery operations.
 </p>
 
 <p align="center">
@@ -32,7 +32,9 @@ I build production-minded platforms that connect product strategy, secure AI wor
 
 I am a technical builder and enterprise systems leader who turns messy business operations into structured, secure, usable platforms. My work sits between product, engineering, business analysis, QA/UAT, data, APIs, and rollout governance.
 
-I have led and built across retail, logistics, public sector, operations, family-tech, AI tooling, and service platforms. The common thread is practical delivery: clarify the problem, map the system, build the workflow, prove it works, and keep privacy/security boundaries clean.
+I have led and built across retail, logistics, public sector, operations, family-tech, mobile games, AI tooling, and service platforms. The common thread is practical delivery: clarify the problem, map the system, build the workflow, prove it works, and keep privacy/security boundaries clean.
+
+My iOS experience spans Capacitor-based product delivery, a guarded native PeacePad V2 staging architecture, and Unity-to-Xcode release automation for **Just Checking In** through TestFlight and App Store workflows.
 
 **What I want people to see here:** I do not only write ideas down. I ship working products, maintain live systems, document execution, and design technical workflows that real users can operate.
 
@@ -45,12 +47,75 @@ I have led and built across retail, logistics, public sector, operations, family
 | Product | What it proves | Technical scope | Link |
 |---|---|---|---|
 | **PeacePad** | Family-tech product thinking, AI-assisted communication, calm UX, privacy-aware workflows | React, TypeScript, Node/API, Supabase, Railway/Cloudflare, Capacitor | [![PeacePad](https://img.shields.io/badge/PEACEPAD-LIVE-2563EB?style=flat-square&logo=googlechrome&logoColor=white)](https://peacepad.ca) |
+| **PeacePad V2** | Native-mobile architecture, fail-closed staging controls, session security, readiness and migration discipline | Native iOS staging, TypeScript coordination client, Node/API, Postgres, strict CORS, synthetic migrations | **STAGING / LAB** |
+| **Just Checking In** | Mobile-game delivery, Unity engineering, Apple signing/release automation, TestFlight and App Store operations | Unity, C#, iOS export, Xcode archive/signing, TestFlight delivery scripts | **iOS RELEASE PIPELINE** |
 | **Una Labs** | AI product studio, client intake, product pages, checkout and delivery positioning | Next.js, Cloudflare, Supabase, Stripe, product ops | [![Una Labs](https://img.shields.io/badge/UNA%20LABS-LIVE-06B6D4?style=flat-square&logo=vercel&logoColor=0B1020)](https://unalabs.cloud) |
 | **Anion** | Scheduling, tutoring operations, live classroom, role-based platform flows | Next.js, Supabase, Stripe, Daily.co, Cloudflare Worker | [![Anion](https://img.shields.io/badge/ANION-LIVE-EA580C?style=flat-square&logo=googlechrome&logoColor=white)](https://anion.unalabs.cloud) |
 | **SayWetin** | Speech/music/slang recognition product, browser/mobile direction, API-backed utility | React/TypeScript, Node API, Railway, Postgres, extension architecture | [![SayWetin](https://img.shields.io/badge/SAYWETIN-LIVE-7C3AED?style=flat-square&logo=googlechrome&logoColor=white)](https://saywetin.app) |
 | **CapSigma Growth Desk** | Sales agent command center, lead intelligence, outreach proof, client-ready handoff | Cloudflare Pages/Functions, D1 patterns, SendGrid/OpenAI workflows, proof ledger | [![CapSigma](https://img.shields.io/badge/CAPSIGMA-LIVE-0F766E?style=flat-square&logo=cloudflare&logoColor=white)](https://capsigma-growth-desk.pages.dev) |
 | **Garden Cleaners** | Service-business booking, client portal, operational web presence | Next.js, Supabase, Stripe, production web ops | [![Garden Cleaners](https://img.shields.io/badge/GARDEN%20CLEANERS-LIVE-16A34A?style=flat-square&logo=googlechrome&logoColor=white)](https://gardencleaners.ca) |
 | **Dispatch / Internal Ops** | Lightweight operational routing, health checks, private/public service boundaries | Cloudflare, API endpoints, ops automation | [![Dispatch](https://img.shields.io/badge/DISPATCH-LIVE-111827?style=flat-square&logo=cloudflare&logoColor=F97316)](https://dispatch.unalabs.cloud) |
+
+## FTC Product Architecture
+
+The portfolio shares a consistent delivery model: focused user experiences connect through typed application and API layers to managed data, AI, payments, communications, and observable release operations.
+
+```mermaid
+flowchart TB
+    subgraph Experiences["Product experiences"]
+        PP["PeacePad<br/>React + Capacitor"]
+        PP2["PeacePad V2<br/>Native iOS staging"]
+        JCI["Just Checking In<br/>Unity + C# for iOS"]
+        UL["Una Labs / Anion / Garden Cleaners<br/>Next.js"]
+        SW["SayWetin<br/>React + browser extension"]
+        CS["CapSigma / Dispatch<br/>Cloudflare web operations"]
+    end
+
+    subgraph Services["Application and service layer"]
+        NODE["TypeScript / Node.js APIs"]
+        EDGE["Cloudflare Pages, Functions and Workers"]
+        MOBILE["Capacitor and native coordination"]
+        APPLE["Unity export, Xcode archive and signing"]
+    end
+
+    subgraph Platform["Data and integrations"]
+        DATA["Supabase / Postgres / D1"]
+        AI["AI-assisted workflows and human approval"]
+        COMMS["Daily.co / SendGrid / webhooks"]
+        PAY["Stripe"]
+    end
+
+    subgraph Delivery["Delivery, trust and operations"]
+        CICD["GitHub Actions and release scripts"]
+        HOST["Cloudflare / Railway"]
+        IOS["TestFlight / App Store"]
+        PROOF["Health checks, smoke tests and proof ledgers"]
+    end
+
+    PP --> NODE
+    PP --> MOBILE
+    PP2 --> MOBILE
+    JCI --> APPLE
+    UL --> NODE
+    UL --> EDGE
+    SW --> NODE
+    CS --> EDGE
+
+    NODE --> DATA
+    NODE --> AI
+    NODE --> COMMS
+    NODE --> PAY
+    EDGE --> DATA
+    MOBILE --> NODE
+
+    NODE --> HOST
+    EDGE --> HOST
+    APPLE --> IOS
+    CICD --> HOST
+    CICD --> IOS
+    HOST --> PROOF
+    IOS --> PROOF
+```
 
 ## Portfolio Repository
 
@@ -72,6 +137,7 @@ It contains product code, platform scripts, operational documentation, health ch
 
 ### Full-Stack And Platform Work
 - TypeScript, JavaScript, React, Next.js, Node.js, Python
+- iOS delivery with Capacitor, native staging architecture, Unity/C#, Xcode archives, signing, TestFlight, and App Store workflows
 - API design, integration mapping, webhook flows, worker functions, and service health checks
 - Supabase, Postgres, Cloudflare, Railway, Stripe, Daily.co, SendGrid
 - GitHub Actions, scheduled jobs, production smoke tests, secrets hygiene, and deployment verification
@@ -118,6 +184,11 @@ It contains product code, platform scripts, operational documentation, health ch
   <img src="https://img.shields.io/badge/Next.js-111827?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
   <img src="https://img.shields.io/badge/Node.js-3C873A?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/iOS-111827?style=flat-square&logo=apple&logoColor=white" alt="iOS" />
+  <img src="https://img.shields.io/badge/Unity-111827?style=flat-square&logo=unity&logoColor=white" alt="Unity" />
+  <img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=csharp&logoColor=white" alt="C Sharp" />
+  <img src="https://img.shields.io/badge/Xcode-147EFB?style=flat-square&logo=xcode&logoColor=white" alt="Xcode" />
+  <img src="https://img.shields.io/badge/Capacitor-119EFF?style=flat-square&logo=capacitor&logoColor=white" alt="Capacitor" />
   <img src="https://img.shields.io/badge/Postgres-336791?style=flat-square&logo=postgresql&logoColor=white" alt="Postgres" />
   <img src="https://img.shields.io/badge/Supabase-0F172A?style=flat-square&logo=supabase&logoColor=3ECF8E" alt="Supabase" />
   <img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare" />
@@ -150,4 +221,4 @@ Direct email: <a href="mailto:fejiro.efiuvwere@gmail.com">fejiro.efiuvwere@gmail
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1020,40:2563EB,75:06B6D4,100:7C3AED&height=120&section=footer" alt="Fejiro footer" />
 </p>
 
-<!-- profile-refresh: 2026-07-07T15:00:00Z -->
+<!-- profile-refresh: 2026-08-10 -->
