@@ -118,8 +118,8 @@ font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700">KEEP B
 
 
 for theme, filename in (
-    (False, "github-contribution-grid-snake.svg"),
-    (True, "github-contribution-grid-snake-dark.svg"),
+    (False, "build-quest-light.svg"),
+    (True, "build-quest-dark.svg"),
 ):
     output = DEST / filename
     output.write_text(render(theme), encoding="utf-8")
