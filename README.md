@@ -80,9 +80,9 @@ These days, I love making technology feel simpler for real people. My work spans
 <p>One little game, a lot of real work. The ball follows actual contribution days, including <strong>anonymous private-repository activity</strong>.</p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/fefejiro/fefejiro/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/fefejiro/fefejiro/output/github-contribution-grid-snake.svg" />
-  <img width="100%" src="https://raw.githubusercontent.com/fefejiro/fefejiro/output/github-contribution-grid-snake.svg" alt="Build Quest: an animated twelve-month GitHub contribution game with a real activity score" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/fefejiro/fefejiro/output/build-quest-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/fefejiro/fefejiro/output/build-quest-light.svg" />
+  <img width="100%" src="https://raw.githubusercontent.com/fefejiro/fefejiro/output/build-quest-light.svg" alt="Build Quest: an animated twelve-month GitHub contribution game with a real activity score" />
 </picture>
 
 <sub>Real GitHub activity, not invented commits. Private projects and source code remain private.</sub>
