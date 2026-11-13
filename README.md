@@ -1,4 +1,4 @@
-<!-- Fejiro's public technical profile | November 13, 2026 -->
+<!-- Public technical profile | concise product showcase and Build Quest -->
 <p align="center">
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1020,45:155E75,75:2563EB,100:7C3AED&height=155&section=header&text=Fejiro%20Efiuvwere&fontSize=39&fontColor=FFFFFF&animation=fadeIn" alt="Fejiro Efiuvwere" />
 </p>
@@ -77,15 +77,15 @@ These days, I love making technology feel simpler for real people. My work spans
 
 ### 🎮 Build Quest: my GitHub activity
 
-<p>One little game, a lot of real work. The moving ball plays across real contribution days. The score comes from GitHub, including <strong>anonymous private-repository activity</strong>.</p>
+<p>One little game, a lot of real work. The ball follows actual contribution days, including <strong>anonymous private-repository activity</strong>.</p>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/fefejiro/fefejiro/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/fefejiro/fefejiro/output/github-contribution-grid-snake.svg" />
-  <img width="100%" src="https://raw.githubusercontent.com/fefejiro/fefejiro/output/github-contribution-grid-snake.svg" alt="Build Quest animated activity game showing the most recently verified GitHub contribution score" />
+  <img width="100%" src="https://raw.githubusercontent.com/fefejiro/fefejiro/output/github-contribution-grid-snake.svg" alt="Build Quest: an animated twelve-month GitHub contribution game with a real activity score" />
 </picture>
 
-<sub>Score and verification date are shown inside the game. GitHub contributions include more than individual commits; private repository names and source code remain private. GitHub's own native activity graph appears separately below this README.</sub>
+<sub>Real GitHub activity, not invented commits. Private projects and source code remain private.</sub>
 
 <details>
 <summary><strong>🔎 For technical readers: architecture, case studies and delivery evidence</strong></summary>
@@ -107,4 +107,4 @@ PeacePad Native V2 is still undergoing implementation and physical-device accept
   <a href="https://peacepad.ca/">PeacePad</a> ·
   <a href="mailto:fejiro@peacepad.ca">fejiro@peacepad.ca</a>
 </p>
-<p align="center"><sub>Canada · Founder, Una Labs & PeacePad · Profile refreshed November 13, 2026</sub></p>
+<p align="center"><sub>Canada · Founder, Una Labs & PeacePad</sub></p>
