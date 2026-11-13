@@ -1,39 +1,32 @@
-name: Generate Contribution Snake
+name: Refresh Build Quest
 
-# GitHub's contribution graph is authoritative. Private work only appears
-# in anonymized form when the account owner enables that visibility setting.
+# Maintains one custom gamified GitHub contribution view.
+# GitHub's public contribution calendar is the source; private work only
+# appears anonymously when enabled in the account profile settings.
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - README.md
-      - TECHNICAL_WORK.md
-      - .github/workflows/snake.yml
   schedule:
-    - cron: "17 5 * * 0"
+    - cron: "35 9 * * 1"
 
 permissions:
   contents: write
 
 concurrency:
-  group: contribution-snake
+  group: build-quest-activity
   cancel-in-progress: true
 
 jobs:
-  snake:
+  refresh:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - name: Generate light and dark GitHub contribution SVGs
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg?palette=github-light&color_snake=%2306B6D4
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=%232563EB
+      - name: Checkout public profile repository
+        uses: actions/checkout@v4
 
-      - name: Publish output images without exposing private repository content
+      - name: Generate verified light and dark animation assets
+        run: python3 scripts/update_build_quest.py
+
+      - name: Publish to existing output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
