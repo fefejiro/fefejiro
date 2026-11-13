@@ -12,7 +12,7 @@ I build production-minded web and iOS platforms that connect product strategy, s
 <p align="center">
   <a href="https://www.linkedin.com/in/fejiro-efiuvwere"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:fejiro@peacepad.ca"><img src="https://img.shields.io/badge/EMAIL-111827?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://unalabs.cloud/"><img src="https://img.shields.io/badge/PRODUCT%20PORTFOLIO-0B1020?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Una Labs public product portfolio" /></a>
+  <a href="https://unalabs.cloud/work/"><img src="https://img.shields.io/badge/PRODUCT%20PORTFOLIO-0B1020?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Una Labs public product portfolio" /></a>
 </p>
 
 ---
@@ -143,19 +143,19 @@ flowchart TB
     class EDGE,API,MOBILE runtime;
     class DATA,REGIONS,SECURITY,SERVICES trust;
     class CI,PROOF,LIVE delivery;
-    class RELEASE blocked;
+    class RELEASE delivery;
 ```
 
 </details>
 
 **Architecture principles:** edge-first delivery, persistent compute only when needed, one canonical Dispatch source, isolated product data, least-privilege access, and no production claim without current evidence.
 
-## Portfolio Repository
+## Public Product Portfolio
 
 Explore the publicly accessible product portfolio:
 
 <p>
-  <a href="https://unalabs.cloud/"><img src="https://img.shields.io/badge/UNA%20LABS-PRODUCT%20PORTFOLIO-0B1020?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Una Labs public product portfolio" /></a>
+  <a href="https://unalabs.cloud/work/"><img src="https://img.shields.io/badge/UNA%20LABS-PRODUCT%20PORTFOLIO-0B1020?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Una Labs public product portfolio" /></a>
 </p>
 
 The internal `FTC-HOLDING` development repository is **private**. Public visitors can review live products and intentionally public repositories listed here without needing access to confidential source code or operational records.
@@ -193,7 +193,7 @@ The internal `FTC-HOLDING` development repository is **private**. Public visitor
 
 | Area | Repository / Surface | Why it matters |
 |---|---|---|
-| Public product portfolio | [Una Labs](https://unalabs.cloud/) | Public product and service overview |
+| Public product portfolio | [Una Labs: What We Built](https://unalabs.cloud/work/) | Public examples of shipped work and product delivery |
 | PeacePad privacy | [peacepad-privacy](https://github.com/fefejiro/peacepad-privacy) | Public policy/trust surface for PeacePad |
 | Consulting profile | [fejiro-it-consulting](https://github.com/fefejiro/fejiro-it-consulting) | Delivery positioning and consulting background |
 | PeacePad legacy public repo | [PeacePad](https://github.com/fefejiro/PeacePad) | Public historical project surface |
@@ -202,7 +202,7 @@ The internal `FTC-HOLDING` development repository is **private**. Public visitor
 
 | Signal | Current public evidence |
 |---|---|
-| Public product evidence | [Una Labs](https://unalabs.cloud/), live links above, and intentionally public project repositories |
+| Public product evidence | [Una Labs: What We Built](https://unalabs.cloud/work/), live links above, and intentionally public project repositories |
 | Live products represented | PeacePad, Una Labs, Anion, SayWetin, CapSigma, Garden Cleaners, Dispatch |
 | Native GitHub achievement | Pull Shark |
 | Public repo posture | Portfolio and policy surfaces are public; sensitive product/client code stays private by design |
