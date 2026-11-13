@@ -5,7 +5,6 @@ GitHub's public contribution calendar is the source of truth. It includes
 anonymous private activity only when its owner opts into that profile setting.
 No private repository details or source code are fetched or published.
 """
-from datetime import datetime, timezone
 from html import escape
 from pathlib import Path
 import os
@@ -40,7 +39,6 @@ total = int(title.group(1).replace(",", ""))
 if total < 0:
     raise ValueError("Invalid contribution count")
 
-date_label = datetime.now(timezone.utc).strftime("%b %d, %Y")
 score = f"{total:,}"
 days = [(date, int(level)) for date, level in cells]
 points = [
@@ -73,7 +71,6 @@ def render(dark: bool) -> str:
         for x, y, level in points
     )
     score_text = escape(score)
-    date_text = escape(date_label)
     safe_route = escape(route, quote=True)
 
     return f"""<svg xmlns="http://www.w3.org/2000/svg" role="img"
@@ -101,7 +98,7 @@ font-family="Arial,Helvetica,sans-serif" font-size="37" font-weight="800">{score
 <text x="870" y="64" fill="{muted}" text-anchor="middle"
 font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700">GITHUB CONTRIBUTIONS</text>
 <text x="52" y="83" fill="{muted}" font-family="Arial,Helvetica,sans-serif"
-font-size="12">Verified {date_text} · Private contributions anonymous</text>
+font-size="12">ROLLING 12 MONTHS · PRIVATE WORK ANONYMOUS</text>
 {tiles}
 <rect x="48" y="119" width="5" height="27" rx="2.5" fill="{accent}" opacity=".8">
 <animate attributeName="y" values="119;174;119" dur="4.4s" repeatCount="indefinite"/></rect>
@@ -110,11 +107,11 @@ font-size="12">Verified {date_text} · Private contributions anonymous</text>
 <circle r="5.5" fill="{accent}" stroke="#ffffff" stroke-width="1.5" filter="url(#glow)">
 <animateMotion dur="26s" repeatCount="indefinite" path="{safe_route}"/></circle>
 <text x="52" y="239" fill="{muted}" font-family="Arial,Helvetica,sans-serif"
-font-size="11">NOV 2025</text>
+font-size="11">PAST YEAR</text>
 <text x="470" y="239" fill="{muted}" font-family="Arial,Helvetica,sans-serif"
-font-size="11">MAY 2026</text>
+font-size="11">KEEP MOVING</text>
 <text x="756" y="239" fill="{muted}" font-family="Arial,Helvetica,sans-serif"
-font-size="11">NOV 2026</text>
+font-size="11">TODAY</text>
 <text x="997" y="239" text-anchor="middle" fill="{accent}"
 font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700">KEEP BUILDING</text>
 </svg>"""
