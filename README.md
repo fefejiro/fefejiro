@@ -1,169 +1,110 @@
-<!-- github-profile-readme: evidence-led public technical resume | updated 2026-11-13 -->
+<!-- Fejiro's public technical profile | November 13, 2026 -->
 <p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1020,45:155E75,75:2563EB,100:7C3AED&height=170&section=header&text=Fejiro%20Efiuvwere&fontSize=40&fontColor=F8FAFC&animation=fadeIn" alt="Fejiro Efiuvwere, technical product builder" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1020,45:155E75,75:2563EB,100:7C3AED&height=155&section=header&text=Fejiro%20Efiuvwere&fontSize=39&fontColor=FFFFFF&animation=fadeIn" alt="Fejiro Efiuvwere" />
 </p>
 
-<h2 align="center">Technical Product Builder | Full-Stack & Mobile Platforms | Enterprise Systems</h2>
-<p align="center"><strong>I build useful products, connect complex systems, and verify the work from design through release.</strong></p>
-<p align="center">Based in Canada · 15+ years in enterprise delivery · TypeScript, React, APIs, data and mobile</p>
+<h2 align="center">Hello, I am Fejiro 👋</h2>
+<p align="center"><strong>Product builder • Full-stack and mobile engineering • Enterprise systems</strong></p>
+<p align="center">I turn complicated problems into useful products that people can actually enjoy using.</p>
+<p align="center"><em>Build thoughtfully. Ship confidently. Keep learning. Have fun.</em> 🎮</p>
 
 <p align="center">
-  <a href="https://unalabs.cloud/work/"><img src="https://img.shields.io/badge/SEE%20THE%20WORK-0B1020?style=for-the-badge&logo=googlechrome&logoColor=white" alt="See public projects"/></a>
-  <a href="https://github.com/fefejiro/fefejiro/blob/main/TECHNICAL_WORK.md"><img src="https://img.shields.io/badge/ENGINEERING%20CASE%20STUDIES-155E75?style=for-the-badge&logo=github&logoColor=white" alt="Read technical work and evidence"/></a>
-  <a href="https://github.com/fefejiro"><img src="https://img.shields.io/badge/GITHUB%20ACTIVITY-2563EB?style=for-the-badge&logo=github&logoColor=white" alt="See GitHub account-wide activity"/></a>
-  <a href="mailto:fejiro@peacepad.ca"><img src="https://img.shields.io/badge/WORK%20WITH%20ME-7C3AED?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Fejiro"/></a>
+  <a href="https://unalabs.cloud/work/"><img src="https://img.shields.io/badge/EXPLORE%20MY%20WORK-0B1020?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Explore the Una Labs portfolio" /></a>
+  <a href="https://github.com/fefejiro/fefejiro/blob/main/TECHNICAL_WORK.md"><img src="https://img.shields.io/badge/BEHIND%20THE%20BUILD-155E75?style=for-the-badge&logo=github&logoColor=white" alt="Read my technical case studies" /></a>
+  <a href="mailto:fejiro@peacepad.ca"><img src="https://img.shields.io/badge/LET'S%20CONNECT-7C3AED?style=for-the-badge&logo=gmail&logoColor=white" alt="Contact Fejiro" /></a>
 </p>
 
 ---
 
+### A little about me
+
+I am a Canada-based technologist and founder working across **product design, software engineering and delivery**. I bring over **15 years of enterprise technology experience**, including point-of-sale systems, integrations, operational platforms and quality assurance.
+
+These days, I love making technology feel simpler for real people. My work spans family technology, mobile applications, web platforms and thoughtful automation.
+
+### Things I am building
+
 <table>
 <tr>
-<td width="28%" valign="top" align="center">
-  <img src="https://raw.githubusercontent.com/fefejiro/fefejiro/main/assets/profile.jpg" alt="Fejiro Efiuvwere" width="190" /><br/>
-  <strong>Product + engineering + delivery</strong><br/>
-  <sub>Enterprise systems, practical software, and accountable releases</sub>
+<td width="50%" valign="top">
+  <h3>🏡 <a href="https://peacepad.ca/">PeacePad</a></h3>
+  <p>Helping parents find a little more calm in everyday coordination. A real consumer product with public mobile app listings, ongoing UX improvements and a separate next-generation build in testing.</p>
+  <a href="https://peacepad.ca/">Explore PeacePad</a> ·
+  <a href="https://apps.apple.com/ca/app/peacepad/id6793350735">iPhone</a> ·
+  <a href="https://play.google.com/store/apps/details?id=ca.peacepad.family">Android</a>
 </td>
-<td width="72%" valign="top">
-
-### What I bring to a technical team
-
-I work at the intersection of **software engineering, systems analysis, product ownership and release execution**. My focus is not only a feature that compiles, but an experience that users can operate, with clear data boundaries, maintainable integrations, and evidence that it works.
-
-- **Build:** React, TypeScript, Next.js, React Native, Node.js, APIs and SQL.
-- **Connect:** Supabase/PostgreSQL, cloud services, enterprise systems and practical integrations.
-- **Validate:** API contracts, QA/UAT, physical-device tests, deployment verification and accessible UI.
-- **Deliver:** product framing, scoped execution, handoff, incident diagnosis and iteration.
-
+<td width="50%" valign="top">
+  <h3>🚀 <a href="https://unalabs.cloud/work/">Una Labs</a></h3>
+  <p>A product studio where ideas become usable software. From web applications and service workflows to practical AI-assisted experiences and their release journeys.</p>
+  <a href="https://unalabs.cloud/work/">See what we built</a> ·
+  <a href="https://unalabs.cloud/products/">Products</a>
+</td>
+</tr>
+<tr>
+<td valign="top">
+  <h3>📚 <a href="https://anion.unalabs.cloud/">Anion</a></h3>
+  <p>Exploring better learning and scheduling experiences, with attention to everyday workflows and clear interfaces.</p>
+  <a href="https://anion.unalabs.cloud/">View product</a>
+</td>
+<td valign="top">
+  <h3>🎙️ <a href="https://saywetin.app/">SayWetin</a></h3>
+  <p>Experimenting at the intersection of language, voice and technology, with playful product ideas and real web delivery.</p>
+  <a href="https://saywetin.app/">Explore SayWetin</a>
 </td>
 </tr>
 </table>
 
-## Selected products and engineering work
+<p align="center"><sub>These links open public product surfaces. Not every in-development feature is released. Private source code and user information stay private.</sub></p>
 
-| Product or system | Engineering focus | Public evidence |
-| --- | --- | --- |
-| **PeacePad** | Co-parenting product, communication and shared-planning UX, React/TypeScript, mobile delivery, privacy-aware architecture | [Website](https://peacepad.ca/) · [App Store](https://apps.apple.com/ca/app/peacepad/id6793350735) · [Google Play](https://play.google.com/store/apps/details?id=ca.peacepad.family) |
-| **Una Labs** | Technical product studio, Next.js, service workflows, integration and deployment operations | [Studio](https://unalabs.cloud/) · [What We Built](https://unalabs.cloud/work/) |
-| **Anion** | Learning and scheduling platform flows, role-based operations and web services | [Product](https://anion.unalabs.cloud/) |
-| **SayWetin** | Language and voice product experimentation, React and API-backed delivery | [Product](https://saywetin.app/) |
-| **Dispatch** | Operational request routing and service workflow demonstration | [Public demo](https://unalabs.cloud/demo/dispatch/) |
-| **CapSigma Growth Desk** | Lead-operations workflows, automation and evidence-aware handoff patterns | [Public surface](https://capsigma-growth-desk.pages.dev/) |
-| **Garden Cleaners** | Service-business web presence, booking and customer workflow design | [Website](https://gardencleaners.ca/) |
-| **Just Checking In** | Unity/C# game engineering and iOS build, signing and release-pipeline workflows | [Product overview](https://unalabs.cloud/products/) |
+### How I work
 
-**Status matters:** These links point to independently accessible public product surfaces. Public availability does not guarantee that every named subsystem or future feature is released. Implementation details and customer data may live in private repositories.
+| 💡 Understand | 🛠️ Build | ✅ Deliver |
+| :---: | :---: | :---: |
+| People, problems and systems | Useful interfaces and reliable integrations | Test, release, learn and improve |
 
-## What the work demonstrates
+**Some tools in my toolbox**
 
-<table>
-<tr>
-<td width="33%" valign="top">
+<p align="left">
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+<img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+<img src="https://img.shields.io/badge/Next.js-0B1020?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
+<img src="https://img.shields.io/badge/React_Native-2563EB?style=flat-square&logo=react&logoColor=white" alt="React Native" />
+<img src="https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
+<img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+<img src="https://img.shields.io/badge/Supabase-2DAB73?style=flat-square&logo=supabase&logoColor=white" alt="Supabase" />
+<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
+</p>
 
-### 01 · Product delivery
+### 🎮 Build Quest: my GitHub activity
 
-From a first user journey to responsive UI, integrations, App Store preparation, release checks and real feedback.
-
-**React · Next.js · TypeScript · React Native · Capacitor**
-
-</td>
-<td width="33%" valign="top">
-
-### 02 · Platform engineering
-
-APIs, data modeling, service boundaries, secure authorization patterns and cloud/runtime choices appropriate to the workload.
-
-**Node.js · Deno · Supabase · PostgreSQL · Cloudflare**
-
-</td>
-<td width="34%" valign="top">
-
-### 03 · Enterprise execution
-
-Translating business and data complexity into testable requirements, operational controls, acceptance evidence and reliable handoffs.
-
-**POS · ERP · WMS · Data integration · QA/UAT · CI/CD**
-
-</td>
-</tr>
-</table>
-
-### Current engineering focus · November 2026
-
-- **PeacePad consumer experience:** supporting the live website and publicly listed apps, with continuing responsive design, accessibility and release-quality improvements.
-- **PeacePad Native V2:** React Native/Expo and backend integration work undergoing implementation and physical-device acceptance. **A separate Native V2 store release is not verified.**
-- **Una Labs delivery:** building and maintaining public product experiences alongside private operational systems with explicit access boundaries.
-- **Evidence-first engineering:** separating completed deployments, test builds, product concepts and blocked integrations rather than presenting them as equivalent.
-
-For engineering decisions, architecture, release distinctions and selected public proof, see **[Technical Work: case studies and delivery approach](https://github.com/fefejiro/fefejiro/blob/main/TECHNICAL_WORK.md)**.
-
-## Engineering toolkit
-
-| Discipline | Tools and technologies |
-| --- | --- |
-| Full-stack applications | TypeScript, JavaScript, React, Next.js, Node.js, REST APIs |
-| Mobile and desktop workflows | React Native, Expo, Capacitor, Android, iOS, Xcode, Unity/C# |
-| Data and identity | PostgreSQL, SQL, Supabase, RLS, validation and access control |
-| Cloud and delivery | Cloudflare, Railway, GitHub Actions, CI/CD, Docker, Terraform |
-| Quality and observability | Playwright, Vitest, Jest, functional/UAT testing, release smoke checks |
-| Enterprise and data | POS, ERP, WMS, data mapping, service integration, QA/UAT, rollout governance |
-| AI-supported workflows | Human-approved assistants, integration boundaries, operational automation |
-
-<details>
-<summary><strong>How I take software from idea to working delivery</strong></summary>
-
-```mermaid
-flowchart LR
-  A["Understand users & business rules"] --> B["Design APIs, roles & data"]
-  B --> C["Build product & integrations"]
-  C --> D["Test in real environments"]
-  D --> E["Release with evidence"]
-  E --> F["Observe, fix & improve"]
-  F --> A
-```
-
-The guiding principle: **a successful code change, a passing test, a deployed service and a usable release are different levels of evidence.**
-
-</details>
-
-## Public code, trust and case studies
-
-| Resource | Why it is here |
-| --- | --- |
-| [Technical work and engineering case studies](https://github.com/fefejiro/fefejiro/blob/main/TECHNICAL_WORK.md) | Architecture, delivery practice, selected work and release status |
-| [PeacePad public repository](https://github.com/fefejiro/PeacePad) | Historical public code and project background |
-| [PeacePad privacy](https://github.com/fefejiro/peacepad-privacy) | Public privacy and trust documentation |
-| [IT consulting background](https://github.com/fefejiro/fejiro-it-consulting) | Enterprise and technical delivery positioning |
-| [Public portfolio](https://unalabs.cloud/work/) | Product experiences that visitors can actually open |
-| [GitHub account overview](https://github.com/fefejiro) | Account-level public repositories and native contribution activity |
-
-## Contribution trail
-
-**An updated visual built from GitHub's public contribution calendar on November 13, 2026.** A moving marker follows days with recorded activity. For current totals and the native activity timeline, use the [GitHub account overview](https://github.com/fefejiro).
+<p>One little game, a lot of real work. The moving ball plays across the days I contributed. The score comes from GitHub, including <strong>anonymous private-repository contributions</strong>.</p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/fefejiro/fefejiro/output/github-contribution-grid-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/fefejiro/fefejiro/output/github-contribution-grid-snake.svg"/>
-  <img src="https://raw.githubusercontent.com/fefejiro/fefejiro/output/github-contribution-grid-snake.svg" width="100%" alt="Updated GitHub public-contribution heatmap with an animated marker, as of November 13, 2026"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/fefejiro/fefejiro/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/fefejiro/fefejiro/output/github-contribution-grid-snake.svg" />
+  <img width="100%" src="https://raw.githubusercontent.com/fefejiro/fefejiro/output/github-contribution-grid-snake.svg" alt="Build Quest: animated activity game showing 1,881 verified contributions in the year to November 13, 2026" />
 </picture>
 
-<sub>Public graph only. Work in private repositories is not fully represented unless GitHub's optional anonymized private-contributions setting is enabled. This display is not an all-repository commit count.</sub>
+<sub>Score verified November 13, 2026: 1,881 GitHub contributions, not 1,881 individual commits. GitHub updates its own account activity separately; source code and private repository identities are not published by this graphic.</sub>
 
 <details>
-<summary><strong>Why the profile repository shows zero open issues or pull requests</strong></summary>
+<summary><strong>🔎 For technical readers: architecture, case studies and delivery evidence</strong></summary>
 
-GitHub's issue and pull-request counters on `fefejiro/fefejiro` describe **open items in this one profile repository**. They do not summarize projects, commits, issue history, merged pull requests or private work across the account.
+My deeper work includes React/TypeScript web applications, native/mobile delivery, PostgreSQL and Supabase integrations, API contracts, enterprise POS/ERP/WMS experience, quality assurance and real-device release verification.
 
-For a more useful picture, open the [account profile](https://github.com/fefejiro), [public repositories](https://github.com/fefejiro?tab=repositories), [pull-request history for this profile](https://github.com/fefejiro/fefejiro/pulls?q=is%3Apr) or [merged profile improvement PR #7](https://github.com/fefejiro/fefejiro/pull/7). Private commercial source repositories remain private by design.
+Read <a href="https://github.com/fefejiro/fefejiro/blob/main/TECHNICAL_WORK.md">the technical work portfolio</a>, explore <a href="https://github.com/fefejiro?tab=repositories">public repositories</a>, or see the <a href="https://unalabs.cloud/work/">Una Labs project portfolio</a>.
+
+PeacePad Native V2 is still undergoing implementation and physical-device acceptance. The public app listings do not imply that every V2 feature has shipped.
 
 </details>
 
 ---
 
+<p align="center"><strong>Have something worth building? Let's talk.</strong> ☕</p>
 <p align="center">
-  <strong>From product concept to accountable release.</strong><br/>
-  <a href="https://unalabs.cloud/work/">Explore the work</a> ·
+  <a href="https://unalabs.cloud/work/">Portfolio</a> ·
   <a href="https://www.linkedin.com/in/fejiro-efiuvwere">LinkedIn</a> ·
+  <a href="https://peacepad.ca/">PeacePad</a> ·
   <a href="mailto:fejiro@peacepad.ca">fejiro@peacepad.ca</a>
 </p>
-
-<p align="center"><sub>Public technical résumé, updated November 13, 2026. No confidential code, family information or customer records are published here.</sub></p>
+<p align="center"><sub>Canada · Founder, Una Labs & PeacePad · Profile refreshed November 13, 2026</sub></p>
