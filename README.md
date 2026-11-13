@@ -11,7 +11,7 @@
 <p align="center">
   <a href="https://unalabs.cloud/work/"><img src="https://img.shields.io/badge/EXPLORE%20MY%20WORK-0B1020?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Explore the Una Labs portfolio" /></a>
   <a href="https://github.com/fefejiro/fefejiro/blob/main/TECHNICAL_WORK.md"><img src="https://img.shields.io/badge/BEHIND%20THE%20BUILD-155E75?style=for-the-badge&logo=github&logoColor=white" alt="Read my technical case studies" /></a>
-  <a href="mailto:fejiro@peacepad.ca"><img src="https://img.shields.io/badge/LET'S%20CONNECT-7C3AED?style=for-the-badge&logo=gmail&logoColor=white" alt="Contact Fejiro" /></a>
+  <a href="mailto:fejiro@peacepad.ca"><img src="https://img.shields.io/badge/CONNECT-7C3AED?style=for-the-badge&logo=gmail&logoColor=white" alt="Contact Fejiro" /></a>
 </p>
 
 ---
@@ -77,15 +77,15 @@ These days, I love making technology feel simpler for real people. My work spans
 
 ### 🎮 Build Quest: my GitHub activity
 
-<p>One little game, a lot of real work. The moving ball plays across the days I contributed. The score comes from GitHub, including <strong>anonymous private-repository contributions</strong>.</p>
+<p>One little game, a lot of real work. The moving ball plays across real contribution days. The score comes from GitHub, including <strong>anonymous private-repository activity</strong>.</p>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/fefejiro/fefejiro/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/fefejiro/fefejiro/output/github-contribution-grid-snake.svg" />
-  <img width="100%" src="https://raw.githubusercontent.com/fefejiro/fefejiro/output/github-contribution-grid-snake.svg" alt="Build Quest: animated activity game showing 1,881 verified contributions in the year to November 13, 2026" />
+  <img width="100%" src="https://raw.githubusercontent.com/fefejiro/fefejiro/output/github-contribution-grid-snake.svg" alt="Build Quest animated activity game showing the most recently verified GitHub contribution score" />
 </picture>
 
-<sub>Score verified November 13, 2026: 1,881 GitHub contributions, not 1,881 individual commits. GitHub updates its own account activity separately; source code and private repository identities are not published by this graphic.</sub>
+<sub>Score and verification date are shown inside the game. GitHub contributions include more than individual commits; private repository names and source code remain private. GitHub's own native activity graph appears separately below this README.</sub>
 
 <details>
 <summary><strong>🔎 For technical readers: architecture, case studies and delivery evidence</strong></summary>
@@ -100,7 +100,7 @@ PeacePad Native V2 is still undergoing implementation and physical-device accept
 
 ---
 
-<p align="center"><strong>Have something worth building? Let's talk.</strong> ☕</p>
+<p align="center"><strong>Have something worth building? Get in touch.</strong> ☕</p>
 <p align="center">
   <a href="https://unalabs.cloud/work/">Portfolio</a> ·
   <a href="https://www.linkedin.com/in/fejiro-efiuvwere">LinkedIn</a> ·
