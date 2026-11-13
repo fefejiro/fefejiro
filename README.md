@@ -11,8 +11,8 @@ I build production-minded web and iOS platforms that connect product strategy, s
 
 <p align="center">
   <a href="https://www.linkedin.com/in/fejiro-efiuvwere"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:fejiro.efiuvwere@gmail.com"><img src="https://img.shields.io/badge/EMAIL-111827?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://github.com/fefejiro/FTC-HOLDING"><img src="https://img.shields.io/badge/PORTFOLIO%20REPO-0B1020?style=for-the-badge&logo=github&logoColor=white" alt="FTC portfolio repository" /></a>
+  <a href="mailto:fejiro@peacepad.ca"><img src="https://img.shields.io/badge/EMAIL-111827?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://unalabs.cloud/"><img src="https://img.shields.io/badge/PRODUCT%20PORTFOLIO-0B1020?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Una Labs public product portfolio" /></a>
 </p>
 
 ---
@@ -42,7 +42,7 @@ I am a technical builder and enterprise systems leader who turns messy business 
 
 I have led and built across retail, logistics, public sector, operations, family-tech, mobile games, AI tooling, and service platforms. The common thread is practical delivery: clarify the problem, map the system, build the workflow, prove it works, and keep privacy/security boundaries clean.
 
-My iOS experience spans Capacitor-based product delivery, a guarded native PeacePad V2 staging architecture, and Unity-to-Xcode release automation for **Just Checking In** through TestFlight and App Store workflows.
+My iOS experience spans Capacitor-based product delivery, PeacePad Native V2 implementation and device acceptance work, and Unity-to-Xcode release automation for **Just Checking In** through TestFlight and App Store workflows.
 
 **What I want people to see here:** I do not only write ideas down. I ship working products, maintain live systems, document execution, and design technical workflows that real users can operate.
 
@@ -67,7 +67,7 @@ My iOS experience spans Capacitor-based product delivery, a guarded native Peace
 | Product | What it proves | Technical scope | Link |
 |---|---|---|---|
 | **PeacePad** | Family-tech product thinking, AI-assisted communication, calm UX, privacy-aware workflows | React, TypeScript, Node/API, Supabase, Railway/Cloudflare, Capacitor | [![PeacePad](https://img.shields.io/badge/PEACEPAD-LIVE-2563EB?style=flat-square&logo=googlechrome&logoColor=white)](https://peacepad.ca) |
-| **PeacePad V2** | Regional mobile architecture, secure family coordination, privacy-minimized records, offline recovery and evidence-led release gates | React Native/Expo, TypeScript, Deno Edge Functions, Supabase/Postgres, Canada/U.S. staging, Terraform controls | **45% BUILT · STAGING BLOCKED** |
+| **PeacePad V2** | Regional mobile architecture, secure family coordination, privacy-minimized records, offline recovery and evidence-led release gates | React Native/Expo, TypeScript, Deno Edge Functions, Supabase/Postgres, Canada/U.S. staging, Terraform controls | **Native V2: implementation and physical-device acceptance in progress (2026-11-13); separate store release not yet verified** |
 | **Just Checking In** | Mobile-game delivery, Unity engineering, Apple signing/release automation, TestFlight and App Store operations | Unity, C#, iOS export, Xcode archive/signing, TestFlight delivery scripts | **iOS RELEASE PIPELINE** |
 | **Una Labs** | AI product studio, client intake, product pages, checkout and delivery positioning | Next.js, Cloudflare, Supabase, Stripe, product ops | [![Una Labs](https://img.shields.io/badge/UNA%20LABS-LIVE-06B6D4?style=flat-square&logo=vercel&logoColor=0B1020)](https://unalabs.cloud) |
 | **Anion** | Scheduling, tutoring operations, live classroom, role-based platform flows | Next.js, Supabase, Stripe, Daily.co, Cloudflare Worker | [![Anion](https://img.shields.io/badge/ANION-LIVE-EA580C?style=flat-square&logo=googlechrome&logoColor=white)](https://anion.unalabs.cloud) |
@@ -78,7 +78,7 @@ My iOS experience spans Capacitor-based product delivery, a guarded native Peace
 
 ## FTC Product Architecture
 
-FTC uses a cost-conscious platform model: edge delivery for web experiences, persistent services only where required, isolated product data, and evidence-backed release controls. PeacePad V2 remains a lab/staging programme—its hosted and PostgreSQL checks do not imply TestFlight or production readiness.
+FTC uses a cost-conscious platform model: edge delivery for web experiences, persistent services only where required, isolated product data, and evidence-backed release controls. **As of November 13, 2026**, PeacePad Native V2 implementation and physical-device acceptance testing are ongoing. Code, hosting tests, and signed build artifacts do not establish a separately released V2 app. The existing consumer-facing PeacePad product is available at [peacepad.ca](https://peacepad.ca/).
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/fefejiro/fefejiro/main/assets/ftc-architecture.svg" alt="FTC product architecture connecting portfolio experiences to edge, persistent, data, mobile, security and evidence layers" width="100%" />
@@ -119,7 +119,7 @@ flowchart TB
         CI["GitHub Actions<br/>protected environments + review gates"]
         PROOF["Automated Evidence<br/>hosted, Postgres, smoke + health checks"]
         LIVE["Live Web Products<br/>Cloudflare + Railway"]
-        BLOCKED["PeacePad V2 Release<br/>TestFlight / production blocked"]
+        RELEASE["PeacePad Native V2<br/>Acceptance testing · store release unverified"]
     end
 
     EXPERIENCE --> RUNTIME
@@ -130,7 +130,7 @@ flowchart TB
     GAME -. Apple pipeline .-> MOBILE
     EDGE -. static and short-lived .-> LIVE
     API -. persistent and WebSocket .-> LIVE
-    REGIONS -. credentials required .-> BLOCKED
+    REGIONS -. release validation .-> RELEASE
     CI --> PROOF
 
     classDef product fill:#172554,stroke:#60A5FA,color:#F8FAFC,stroke-width:2px;
@@ -143,7 +143,7 @@ flowchart TB
     class EDGE,API,MOBILE runtime;
     class DATA,REGIONS,SECURITY,SERVICES trust;
     class CI,PROOF,LIVE delivery;
-    class BLOCKED blocked;
+    class RELEASE blocked;
 ```
 
 </details>
@@ -152,13 +152,13 @@ flowchart TB
 
 ## Portfolio Repository
 
-The main public build repository is:
+Explore the publicly accessible product portfolio:
 
 <p>
-  <a href="https://github.com/fefejiro/FTC-HOLDING"><img src="https://img.shields.io/badge/fefejiro%2FFTC--HOLDING-PUBLIC%20PORTFOLIO-0B1020?style=for-the-badge&logo=github&logoColor=white" alt="fefejiro/FTC-HOLDING public portfolio" /></a>
+  <a href="https://unalabs.cloud/"><img src="https://img.shields.io/badge/UNA%20LABS-PRODUCT%20PORTFOLIO-0B1020?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Una Labs public product portfolio" /></a>
 </p>
 
-It contains product code, platform scripts, operational documentation, health checks, and evidence of delivery across the FTC product suite. Some client-facing or privacy-sensitive work remains private by design.
+The internal `FTC-HOLDING` development repository is **private**. Public visitors can review live products and intentionally public repositories listed here without needing access to confidential source code or operational records.
 
 ## Technical Strengths
 
@@ -193,7 +193,7 @@ It contains product code, platform scripts, operational documentation, health ch
 
 | Area | Repository / Surface | Why it matters |
 |---|---|---|
-| Public portfolio | [FTC-HOLDING](https://github.com/fefejiro/FTC-HOLDING) | Main product suite, operations scripts, product docs, and build evidence |
+| Public product portfolio | [Una Labs](https://unalabs.cloud/) | Public product and service overview |
 | PeacePad privacy | [peacepad-privacy](https://github.com/fefejiro/peacepad-privacy) | Public policy/trust surface for PeacePad |
 | Consulting profile | [fejiro-it-consulting](https://github.com/fefejiro/fejiro-it-consulting) | Delivery positioning and consulting background |
 | PeacePad legacy public repo | [PeacePad](https://github.com/fefejiro/PeacePad) | Public historical project surface |
@@ -202,7 +202,7 @@ It contains product code, platform scripts, operational documentation, health ch
 
 | Signal | Current public evidence |
 |---|---|
-| Main public build repo | [FTC-HOLDING](https://github.com/fefejiro/FTC-HOLDING), a TypeScript portfolio monorepo |
+| Public product evidence | [Una Labs](https://unalabs.cloud/), live links above, and intentionally public project repositories |
 | Live products represented | PeacePad, Una Labs, Anion, SayWetin, CapSigma, Garden Cleaners, Dispatch |
 | Native GitHub achievement | Pull Shark |
 | Public repo posture | Portfolio and policy surfaces are public; sensitive product/client code stays private by design |
@@ -257,14 +257,14 @@ It contains product code, platform scripts, operational documentation, health ch
 
 <p>
   <a href="https://www.linkedin.com/in/fejiro-efiuvwere"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:fejiro.efiuvwere@gmail.com"><img src="https://img.shields.io/badge/EMAIL-111827?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="mailto:fejiro@peacepad.ca"><img src="https://img.shields.io/badge/EMAIL-111827?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://peacepad.ca"><img src="https://img.shields.io/badge/PEACEPAD-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white" alt="PeacePad" /></a>
   <a href="https://unalabs.cloud"><img src="https://img.shields.io/badge/UNA%20LABS-06B6D4?style=for-the-badge&logo=vercel&logoColor=0B1020" alt="Una Labs" /></a>
   <a href="https://saywetin.app"><img src="https://img.shields.io/badge/SAYWETIN-7C3AED?style=for-the-badge&logo=googlechrome&logoColor=white" alt="SayWetin" /></a>
   <a href="https://capsigma-growth-desk.pages.dev"><img src="https://img.shields.io/badge/CAPSIGMA-0F766E?style=for-the-badge&logo=cloudflare&logoColor=white" alt="CapSigma" /></a>
 </p>
 
-Direct email: <a href="mailto:fejiro.efiuvwere@gmail.com">fejiro.efiuvwere@gmail.com</a>
+Business and product email: <a href="mailto:fejiro@peacepad.ca">fejiro@peacepad.ca</a>
 
 ## Contribution Trail
 
