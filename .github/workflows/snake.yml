@@ -36,9 +36,9 @@ jobs:
           set -euo pipefail
           git fetch origin output
           git checkout -B output origin/output
-          cp dist/github-contribution-grid-snake.svg github-contribution-grid-snake.svg
-          cp dist/github-contribution-grid-snake-dark.svg github-contribution-grid-snake-dark.svg
-          git add github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg
+          cp dist/build-quest-light.svg build-quest-light.svg
+          cp dist/build-quest-dark.svg build-quest-dark.svg
+          git add build-quest-light.svg build-quest-dark.svg
           if git diff --cached --quiet; then
             echo "Public activity graphics already current"
             exit 0
