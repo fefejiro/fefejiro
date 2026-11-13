@@ -1,12 +1,12 @@
 name: Refresh Build Quest
 
-# Maintains one custom gamified GitHub contribution view.
+# Maintains a single evergreen gamified GitHub contribution view.
 # GitHub's public contribution calendar is the source; private work only
 # appears anonymously when enabled in the account profile settings.
 on:
   workflow_dispatch:
   schedule:
-    - cron: "35 9 * * 1"
+    - cron: "37 8 * * *"
 
 permissions:
   contents: write
